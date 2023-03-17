@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2709105629C357C500BE0A0F /* KitchenOrdersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709105529C357C500BE0A0F /* KitchenOrdersApp.swift */; };
+		2709105A29C357C700BE0A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2709105929C357C700BE0A0F /* Assets.xcassets */; };
+		2709105D29C357C700BE0A0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2709105C29C357C700BE0A0F /* Preview Assets.xcassets */; };
+		2709106429C357D400BE0A0F /* OrdersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709106329C357D400BE0A0F /* OrdersListView.swift */; };
+		2709106629C357E200BE0A0F /* OrdersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709106529C357E200BE0A0F /* OrdersStore.swift */; };
+		2709106829C357F200BE0A0F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709106729C357F200BE0A0F /* Order.swift */; };
+		2709106B29C3584500BE0A0F /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 2709106A29C3584500BE0A0F /* Collections */; };
+		2709106D29C3584500BE0A0F /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 2709106C29C3584500BE0A0F /* DequeModule */; };
+		2709106F29C3584500BE0A0F /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 2709106E29C3584500BE0A0F /* OrderedCollections */; };
+		2709107229C35C0800BE0A0F /* PreparingOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709107129C35C0800BE0A0F /* PreparingOrderView.swift */; };
+		2709107629C35CC200BE0A0F /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709107529C35CC200BE0A0F /* OrderRowView.swift */; };
+		2709107829C35DC000BE0A0F /* NewOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709107729C35DC000BE0A0F /* NewOrderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2709105229C357C500BE0A0F /* KitchenOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2709105529C357C500BE0A0F /* KitchenOrdersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenOrdersApp.swift; sourceTree = "<group>"; };
+		2709105929C357C700BE0A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2709105C29C357C700BE0A0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2709106329C357D400BE0A0F /* OrdersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListView.swift; sourceTree = "<group>"; };
+		2709106529C357E200BE0A0F /* OrdersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersStore.swift; sourceTree = "<group>"; };
+		2709106729C357F200BE0A0F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2709107129C35C0800BE0A0F /* PreparingOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparingOrderView.swift; sourceTree = "<group>"; };
+		2709107529C35CC200BE0A0F /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		2709107729C35DC000BE0A0F /* NewOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2709104F29C357C500BE0A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2709106B29C3584500BE0A0F /* Collections in Frameworks */,
+				2709106D29C3584500BE0A0F /* DequeModule in Frameworks */,
+				2709106F29C3584500BE0A0F /* OrderedCollections in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2709104929C357C500BE0A0F = {
+			isa = PBXGroup;
+			children = (
+				2709105429C357C500BE0A0F /* KitchenOrders */,
+				2709105329C357C500BE0A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2709105329C357C500BE0A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2709105229C357C500BE0A0F /* KitchenOrders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2709105429C357C500BE0A0F /* KitchenOrders */ = {
+			isa = PBXGroup;
+			children = (
+				2709105529C357C500BE0A0F /* KitchenOrdersApp.swift */,
+				2709107029C35BFA00BE0A0F /* Order List Views */,
+				2709107429C35C6900BE0A0F /* Model */,
+				2709105929C357C700BE0A0F /* Assets.xcassets */,
+				2709105B29C357C700BE0A0F /* Preview Content */,
+			);
+			path = KitchenOrders;
+			sourceTree = "<group>";
+		};
+		2709105B29C357C700BE0A0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2709105C29C357C700BE0A0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2709107029C35BFA00BE0A0F /* Order List Views */ = {
+			isa = PBXGroup;
+			children = (
+				2709106329C357D400BE0A0F /* OrdersListView.swift */,
+				2709107729C35DC000BE0A0F /* NewOrderView.swift */,
+				2709107129C35C0800BE0A0F /* PreparingOrderView.swift */,
+				2709107529C35CC200BE0A0F /* OrderRowView.swift */,
+			);
+			path = "Order List Views";
+			sourceTree = "<group>";
+		};
+		2709107429C35C6900BE0A0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2709106529C357E200BE0A0F /* OrdersStore.swift */,
+				2709106729C357F200BE0A0F /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2709105129C357C500BE0A0F /* KitchenOrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2709106029C357C700BE0A0F /* Build configuration list for PBXNativeTarget "KitchenOrders" */;
+			buildPhases = (
+				2709104E29C357C500BE0A0F /* Sources */,
+				2709104F29C357C500BE0A0F /* Frameworks */,
+				2709105029C357C500BE0A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitchenOrders;
+			packageProductDependencies = (
+				2709106A29C3584500BE0A0F /* Collections */,
+				2709106C29C3584500BE0A0F /* DequeModule */,
+				2709106E29C3584500BE0A0F /* OrderedCollections */,
+			);
+			productName = KitchenOrders;
+			productReference = 2709105229C357C500BE0A0F /* KitchenOrders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2709104A29C357C500BE0A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2709105129C357C500BE0A0F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2709104D29C357C500BE0A0F /* Build configuration list for PBXProject "KitchenOrders" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2709104929C357C500BE0A0F;
+			packageReferences = (
+				2709106929C3584500BE0A0F /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = 2709105329C357C500BE0A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2709105129C357C500BE0A0F /* KitchenOrders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2709105029C357C500BE0A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2709105D29C357C700BE0A0F /* Preview Assets.xcassets in Resources */,
+				2709105A29C357C700BE0A0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2709104E29C357C500BE0A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2709107629C35CC200BE0A0F /* OrderRowView.swift in Sources */,
+				2709107229C35C0800BE0A0F /* PreparingOrderView.swift in Sources */,
+				2709106629C357E200BE0A0F /* OrdersStore.swift in Sources */,
+				2709106829C357F200BE0A0F /* Order.swift in Sources */,
+				2709107829C35DC000BE0A0F /* NewOrderView.swift in Sources */,
+				2709106429C357D400BE0A0F /* OrdersListView.swift in Sources */,
+				2709105629C357C500BE0A0F /* KitchenOrdersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2709105E29C357C700BE0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2709105F29C357C700BE0A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2709106129C357C700BE0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitchenOrders/Preview Content\"";
+				DEVELOPMENT_TEAM = RHRH7MV3VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imaginary-institute.tiago.KitchenOrders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2709106229C357C700BE0A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitchenOrders/Preview Content\"";
+				DEVELOPMENT_TEAM = RHRH7MV3VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imaginary-institute.tiago.KitchenOrders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2709104D29C357C500BE0A0F /* Build configuration list for PBXProject "KitchenOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2709105E29C357C700BE0A0F /* Debug */,
+				2709105F29C357C700BE0A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2709106029C357C700BE0A0F /* Build configuration list for PBXNativeTarget "KitchenOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2709106129C357C700BE0A0F /* Debug */,
+				2709106229C357C700BE0A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2709106929C3584500BE0A0F /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2709106A29C3584500BE0A0F /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2709106929C3584500BE0A0F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		2709106C29C3584500BE0A0F /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2709106929C3584500BE0A0F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		2709106E29C3584500BE0A0F /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2709106929C3584500BE0A0F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2709104A29C357C500BE0A0F /* Project object */;
+}
