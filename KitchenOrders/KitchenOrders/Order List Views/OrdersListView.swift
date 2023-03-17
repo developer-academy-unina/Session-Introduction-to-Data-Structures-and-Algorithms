@@ -44,7 +44,7 @@ struct OrdersListView: View {
             }, label: {
                 HStack {
                     Spacer()
-                    Text("Next Order")
+                    Text("Prepare Next Order")
                     Spacer()
                 }
                 .padding()

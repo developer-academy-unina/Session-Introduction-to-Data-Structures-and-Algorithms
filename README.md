@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=13.0&color=brightgreen&logo=swift" />
   </a>
   <a href="#" alt="Framework used">
-    <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI&color=brightgreen&logo=swift"
+    <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI%20swift-collections&color=brightgreen&logo=swift"
             alt="coverage">
   </a>          
 </p>
@@ -49,6 +49,10 @@
 > What is the purpose of your project?
 > Why did you undertake it?
 > You don't have to answer all the questions -- just the ones relevant to your project.
+
+The project simulates a queue of kitchen orders. On the main screen you can see all the orders that were placed and by tapping on the "Prepare Next Order" button, the order on the top of the queue is popped.
+
+You can add a new order by tapping on the New Order button located on the Navigation Bar and filling the new order form.
 
 <summary>Screenshots</summary>
 <br>
